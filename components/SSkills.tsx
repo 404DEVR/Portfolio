@@ -130,7 +130,7 @@ const SSkills = () => {
     <>
       <div
         ref={skill}
-        className="relative skill h-full pt-[7vh] w-[100%] z-[1] bg-gradient-to-r from-blue-500 to-purple-600 rounded-3xl lg:hidden"
+        className="relative skill h-full pt-[7vh] w-[100%] z-[1] bg-black rounded-3xl lg:hidden"
       >
         <div className="flex gap-[1%] pt-[2%] pl-[5%] pb-[1%]">
           <div

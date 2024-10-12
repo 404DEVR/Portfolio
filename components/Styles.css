@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.animationbody{
+  font-family: Neue;
+}
+
+.preloader{
+  clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 100%);
+}
+
+.loader-content{
+  transform: translate(-50%,-50%);
+}
+
+.copy{
+  font-family: "PP Editorial Old";
+}
+
+.loader-2{
+  background: url("/images/Loader.jpg") no-repeat ;
+  background-size: cover;
+  clip-path: polygon(0% 0%,100% 0%,100% 100% ,0% 100%);
+}
+
+.hero-text2{
+  clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 100%);
+  line-height: 5rem;
+}
+
+.char{
+  transform:translateY(30vh);
+  transition:transform .9s;
+}
+
+.projecttext{
+  font-family: "Anta";
+}
+
+.project-text{
+  font-family: "Oswald";
+}
+
+.darknav{
+  color:white;
+  background-color: black;
+}
+
+.navherotext{
+  font-family: "Oswald";
+}
+
+.text-stroke {
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black; 
+  }
+
+.navtext{
+  font-family: "Montserrat";
+}
+
+.hero-text{
+  font-family: Anta;
+}
+
+.contact{
+  font-family: "Montserrat";
+}
+
+.loader-bg, .loader-2 {
+  pointer-events: none; 
+}
+
+.heading{
+  font-family: "Montserrat";
+}
+

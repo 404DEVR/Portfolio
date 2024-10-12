@@ -7,6 +7,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Roshan",
   description: "An asppiaring full stack developer",
+  icons: {
+    icon: "/images/aesthetic.png",
+    shortcut: "/images/portfoliologo-128x128.png",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
